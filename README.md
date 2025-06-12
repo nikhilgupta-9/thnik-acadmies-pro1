@@ -1,40 +1,48 @@
-# 📝 Task Manager - React (Vite)
+# Task Manager (React + Vite)
 
-A simple and fast **Task Manager App** built using **React with Vite**. This project is an attempt to learn and build a modern frontend application that helps users manage their daily tasks efficiently.
+This is a simple task manager project built using React and Vite. I created this to practice my frontend development skills and understand how to manage tasks in a real-world application.
 
----
+## About the Project
 
-## 🚀 Tech Stack
+The app allows users to:
 
-- ⚛️ React JS (with Hooks)
-- ⚡ Vite JS (for fast dev environment)
-- 🧠 State Management with useState/useEffect
-- 💅 CSS (or Tailwind/Bootstrap - if added)
-- 📁 Modular Component Structure
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as complete
 
----
+I’ve used React for building the UI and Vite for faster project setup and development experience. The project is focused on functionality and clean structure.
 
-## 📌 Features
+## Technologies Used
 
-- ✅ Add new tasks
-- 📝 Edit tasks
-- ❌ Delete tasks
-- ✔️ Mark tasks as completed
-- 🔄 Responsive UI
+- React JS
+- Vite
+- JavaScript
+- CSS
 
----
+## How to Run
 
-## 🛠️ Installation & Setup
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Run `npm run dev` to start the project locally
 
-```bash
-# Clone the repo
-git clone https://github.com/your-username/task-manager-frontend.git
+## Folder Structure
+src/
+├── App.jsx
+├── main.jsx
+├── components/
+└── assets/
 
-# Go into the project directory
-cd task-manager-frontend
 
-# Install dependencies
-npm install
+## Future Improvements
 
-# Start the development server
-npm run dev
+I plan to:
+
+- Add local storage or backend integration
+- Improve the UI with better styling
+- Add task filters (like completed, pending)
+
+## Author
+
+This project is made by me as part of my learning journey.
+
